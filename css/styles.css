@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    font-family: Georgia, serif;
+    background:#fafafa;
+    color:#222;
+}
+
+/* HEADER */
+.header{
+    background:white;
+    border-bottom:1px solid #ddd;
+    padding:15px;
+    text-align:center;
+}
+
+.header nav a{
+    margin:0 10px;
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+}
+
+/* INTRO */
+.intro{
+    text-align:center;
+    padding:40px 20px;
+}
+
+/* BLOQUES */
+.bloque{
+    padding:40px 20px;
+}
+
+.gris{
+    background:#f0f0f0;
+}
+
+/* IMÁGENES */
+.imagenes{
+    display:flex;
+    gap:10px;
+}
+
+.imagenes img{
+    width:50%;
+    border-radius:5px;
+}
+
+/* TARJETAS */
+.tarjetas{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border:1px solid #ddd;
+    width:50%;
+}
+
+.card img{
+    width:100%;
+}
+
+/* GALERÍA */
+.galeria{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+
+.galeria img{
+    width:100%;
+}
+
+/* FORM */
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input, textarea{
+    margin:10px 0;
+    padding:10px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:black;
+    color:white;
+    padding:10px;
+    border:none;
+}
+
+/* FOOTER */
+.footer{
+    text-align:center;
+    padding:15px;
+    border-top:1px solid #ddd;
+}
